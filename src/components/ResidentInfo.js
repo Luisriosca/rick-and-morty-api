@@ -23,7 +23,7 @@ export default function ResidentInfo({url}) {
 
     return (
         <div className='ResidentInfo'>
-            <img src={img}/>
+            <img src={img} alt='rick and morty character'/>
             <h4>Name:{name}</h4>
             <h4>Status:{status}</h4>
             <h4>Origin:{origin}</h4>
